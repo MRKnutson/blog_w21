@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PageNew = (props) => {
+const NewNote = (props) => {
   return (
     <div>
       <h1>New Page Form Here</h1>
@@ -17,4 +17,4 @@ const PageNew = (props) => {
   );
 };
 
-export default PageNew;
+export default NewNote;

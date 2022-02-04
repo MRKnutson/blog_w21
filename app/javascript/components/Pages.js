@@ -23,7 +23,10 @@ const Pages = (props) => {
     });
   };
 
-  return <p>Pages Here: {renderPages()}</p>;
+  return <div>
+    <a href ="/pages/new">new page </a>
+    <p>Pages Here: {renderPages()}</p>;
+  </div>
 };
 
 // export component
